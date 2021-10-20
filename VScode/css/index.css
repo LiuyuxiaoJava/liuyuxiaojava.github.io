@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+    color: #000;
+}
+/* menu-nav 鼠标移动到菜单变色 */
+a:hover{
+    text-shadow: cadetblue 2px 1px ;
+    font-weight: bold;
+    color:brown;
+}
+.nav-top{
+    position: relative;
+    height: 120px;
+    background-color:azure;
+}
+.nav-top > h1 > a {
+    display: block;
+    position: absolute;
+    /* 要把阴影与大小配合好，一般来说大小都是偏大时采用 */
+    font-family: "Arial Rounded MT Bold", "Helvetica Rounded", Arial, sans-serif;
+    text-transform: uppercase;/* 全开大写 */
+    font-size: 45px;
+    color: #965718;
+    text-shadow: 8px 8px 10px #533e1b, 0px -2px 1px #fff;
+    font-weight: bold;
+    text-decoration: none;
+    letter-spacing: -4px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.nav-top .top-left{
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    background-image: url(../img/icon/ash-kerins-skullsticker2020nowhispsbwmoon.jpg);
+    background-size: 100%;
+    top: 50%;
+    transform: translate(50%,-50%);
+}
+.nav-menu{
+    height: 50px;
+    background-color:darkgray;
+}
+.nav-menu > ul{
+    
+    width: 70%;
+    margin: 0 auto;
+    list-style: none;
+}
+.nav-menu > ul > li{
+    
+    line-height:50px;
+    width: 20%;
+    display: block;
+    float: left;
+}
+.nav-menu > ul > li > a{
+    font-size:18px;
+   text-decoration: none;
+    display: inline-block;
+    margin-left:50%;
+}
+/* 主干-img-body */
+.img-body{
+    position: relative;
+    width: 100%;
+    height: 600px;
+    background-image: url(../img/wallhaven-43jrd9.jpg);
+    background-size: 100%;
+    background-position: center;
+    
+}
+/* 页脚footer */
+.footer{
+    width: 100%;
+    height: 80px;
+    background-color:gainsboro;
+    position: absolute;
+    
+}
+.footer .foot-text{
+    margin-top:15px;
+}
+.footer .foot-text p{
+    margin-top:8px;
+    text-align: center;
+}
